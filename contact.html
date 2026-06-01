@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Sarfaraz Fabrics</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-logo"><span class="logo-sf">SF</span><span class="logo-text">Sarfaraz Fabrics</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="clothing.html">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li>
+    <li><a href="collections.html">Collections</a></li><li><a href="gallery.html">Gallery</a></li>
+    <li><a href="testimonials.html">Reviews</a></li><li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div class="nav-actions"><a href="https://wa.me/917367018157" target="_blank" class="btn-nav">Visit Store</a><div class="hamburger" id="hamburger"><span></span><span></span><span></span></div></div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <p class="sec-tag">We'd Love to Hear From You</p>
+    <h1>Contact Us</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Contact Info -->
+      <div class="contact-info reveal">
+        <p class="sec-tag">Get in Touch</p>
+        <h2 style="font-size:2rem;margin-bottom:1.5rem;">Visit Our Store<br/>or Send a Message</h2>
+        <p style="color:var(--text-light);line-height:1.8;font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:2rem;">
+          Hamare showroom mein aayein aur apni pasand ke fabrics dekhen. Expert guidance milegi. Bahar se hain? Message karein — hum turant reply karenge!
+        </p>
+
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="cc-icon">📍</div>
+            <div>
+              <h5>Store Address</h5>
+              <p>Sarfaraz Fabrics,<br/>Bhagalpur, Bihar – 812001, India</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">📞</div>
+            <div>
+              <h5>Phone / WhatsApp</h5>
+              <p><a href="tel:+917367018157" style="color:inherit;text-decoration:none;">+91 73670 18157</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">✉️</div>
+            <div>
+              <h5>Email</h5>
+              <p><a href="mailto:sakirjalal64@gmail.com" style="color:inherit;text-decoration:none;">sakirjalal64@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="cc-icon">🕐</div>
+            <div>
+              <h5>Store Hours</h5>
+              <p>Monday – Saturday: 10AM – 8PM<br/>Sunday: 11AM – 6PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div style="margin-top:2rem;">
+          <h5 style="font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;">Follow Us</h5>
+          <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
+            <a class="social-btn" href="https://www.facebook.com/search/top?q=Shakir%20Jalal" target="_blank">📘 Shakir Jalal</a>
+            <a class="social-btn" href="https://instagram.com/shakir_2887" target="_blank">📷 @shakir_2887</a>
+            <a class="social-btn" href="https://wa.me/917367018157" target="_blank">💬 WhatsApp Chat</a>
+          </div>
+        </div>
+
+        <!-- WhatsApp Direct Button -->
+        <div style="margin-top:2rem;">
+          <a href="https://wa.me/917367018157" target="_blank" class="whatsapp-big-btn">
+            <span>💬</span>
+            <div>
+              <strong>Chat on WhatsApp</strong>
+              <small>+91 73670 18157</small>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrap reveal">
+        <div class="form-card">
+          <h3>Send Us a Message</h3>
+          <p>Form bharo — aapki saari details <strong>WhatsApp pe</strong> seedha hamare paas aa jaayengi! 💬</p>
+
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Aapka Naam *</label>
+                <input type="text" id="fname" placeholder="Poora Naam" required/>
+              </div>
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email Address (optional)</label>
+              <input type="email" id="femail" placeholder="aapka@email.com"/>
+            </div>
+            <div class="form-group">
+              <label>Aap kya dhundh rahe hain? *</label>
+              <select id="fcategory" required>
+                <option value="">-- Category chunein --</option>
+                <option>Bridal Sarees &amp; Lehengas</option>
+                <option>Men's Sherwani / Kurta</option>
+                <option>Salwar Suit Sets</option>
+                <option>Pure Fabrics (by meter)</option>
+                <option>Bulk / Wholesale Order</option>
+                <option>Custom / Bespoke Order</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Aapka Message</label>
+              <textarea id="fmessage" placeholder="Batayein — kya chahiye, kab chahiye, budget, occasion..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;text-align:center;cursor:pointer;font-size:0.9rem;padding:1rem;">
+              💬 WhatsApp pe Send Karein
+            </button>
+          </form>
+
+          <p style="text-align:center;font-size:0.75rem;color:var(--text-light);margin-top:1rem;">
+            Submit karte hi WhatsApp khul jayega aur aapki details ready-made message mein hongi.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MAP SECTION -->
+<section style="padding:0 3rem 5rem;">
+  <div class="container">
+    <div class="section-head" style="margin-bottom:2rem;">
+      <p class="sec-tag">Humein Dhundhen</p>
+      <h2>Hamare Store ka Location</h2>
+    </div>
+    <div class="map-placeholder">
+      <div class="map-icon">🗺️</div>
+      <h3 style="font-family:'Playfair Display',serif;color:var(--dark);">Sarfaraz Fabrics, Bhagalpur</h3>
+      <p style="color:var(--text-light);font-size:0.88rem;">Bhagalpur, Bihar – 812001, India</p>
+      <a href="https://maps.google.com/?q=Sarfaraz+Fabrics+Bhagalpur+Bihar+812001" target="_blank" class="btn-primary" style="margin-top:1rem;">Open in Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="section-pad" style="background:var(--ivory);">
+  <div class="container">
+    <div class="section-head"><p class="sec-tag">Quick Answers</p><h2>Aksar Pooche Jaane Waale Sawal</h2></div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>Kya aap fabric meter mein bechte hain?</span><span class="faq-arrow">+</span></div>
+        <div class="faq-a">Haan! Hum sare fabrics meter mein bechte hain. 1 meter se 100 meter tak — sab available hai. Bulk orders par special discount bhi milta hai.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>Kya online order aur delivery milti hai?</span><span class="faq-arrow">+</span></div>
+        <div class="faq-a">Abhi hum primarily physical store hain. Lekin aap WhatsApp par apni requirement share karein — outstation customers ke liye hum shipping discuss kar sakte hain.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>Bridal consultation available hai?</span><span class="faq-arrow">+</span></div>
+        <div class="faq-a">Bilkul! Appointment lekar aayein aur hum aapko poori bridal collection personally dikhayenge. WhatsApp par contact karein appointment ke liye.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>Return ya exchange hota hai?</span><span class="faq-arrow">+</span></div>
+        <div class="faq-a">Uncut, unwashed fabric 7 din mein exchange ho sakta hai original bill ke saath. Ready-made items 3 din mein exchange hote hain. Receipt zaroori hai.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>Kya payment methods accept karte hain?</span><span class="faq-arrow">+</span></div>
+        <div class="faq-a">Cash, GPay, PhonePe, Paytm, aur sare UPI apps. Debit/credit card bhi chalte hain. Bade orders ke liye installment bhi discuss ho sakti hai.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand"><div class="footer-logo"><span class="logo-sf">SF</span><span>Sarfaraz Fabrics</span></div><p>Premium fabrics and ethnic wear, serving Bhagalpur since 2004.</p></div>
+    <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="clothing.html">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h5>Collections</h5><ul><li><a href="collections.html">Bridal Wear</a></li><li><a href="clothing.html">Women's Wear</a></li><li><a href="clothing.html">Men's Wear</a></li><li><a href="fabrics.html">Pure Fabrics</a></li></ul></div>
+    <div class="footer-col"><h5>Contact Us</h5><ul><li>📍 Bhagalpur, Bihar – 812001</li><li>📞 <a href="tel:+917367018157" style="color:rgba(255,255,255,0.55);text-decoration:none;">+91 73670 18157</a></li><li>✉️ <a href="mailto:sakirjalal64@gmail.com" style="color:rgba(255,255,255,0.55);text-decoration:none;">sakirjalal64@gmail.com</a></li><li>🕐 Mon–Sat: 10AM – 8PM</li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 Sarfaraz Fabrics. All rights reserved.</p></div>
+</footer>
+
+<style>
+.contact-layout { display:grid; grid-template-columns:1fr 1.1fr; gap:4rem; align-items:start; }
+.contact-cards { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+.contact-card { display:flex; align-items:flex-start; gap:0.8rem; background:white; border-radius:10px; padding:1.2rem; border:1px solid var(--border); }
+.cc-icon { font-size:1.5rem; flex-shrink:0; }
+.contact-card h5 { font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--gold); margin-bottom:0.3rem; }
+.contact-card p { font-size:0.83rem; color:var(--text-light); line-height:1.6; }
+.form-card { background:white; border-radius:16px; padding:2.5rem; border:1px solid var(--border); box-shadow:var(--shadow); }
+.form-card h3 { font-family:'Playfair Display',serif; font-size:1.5rem; margin-bottom:0.4rem; color:var(--dark); }
+.form-card > p { font-size:0.85rem; color:var(--text-light); margin-bottom:1.8rem; }
+.social-btn { display:inline-flex; align-items:center; gap:0.4rem; padding:0.5rem 1rem; border:1.5px solid var(--border); border-radius:30px; font-size:0.75rem; font-weight:600; text-decoration:none; color:var(--text); transition:all 0.2s; }
+.social-btn:hover { border-color:var(--gold); color:var(--gold-dark); }
+.whatsapp-big-btn {
+  display:flex; align-items:center; gap:1rem;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  border-radius:12px; padding:1rem 1.5rem;
+  text-decoration:none; transition:all 0.3s;
+}
+.whatsapp-big-btn:hover { transform:translateY(-2px); box-shadow:0 8px 25px rgba(37,211,102,0.35); }
+.whatsapp-big-btn span { font-size:2rem; }
+.whatsapp-big-btn strong { display:block; color:white; font-size:0.95rem; }
+.whatsapp-big-btn small { color:rgba(255,255,255,0.8); font-size:0.78rem; }
+/* FAQ */
+.faq-list { max-width:800px; margin:0 auto; }
+.faq-item { border-bottom:1px solid var(--border); }
+.faq-q { display:flex; justify-content:space-between; align-items:center; padding:1.3rem 0; cursor:pointer; font-weight:600; font-size:0.93rem; color:var(--dark); }
+.faq-q:hover { color:var(--gold-dark); }
+.faq-arrow { font-size:1.3rem; color:var(--gold); transition:transform 0.3s; flex-shrink:0; }
+.faq-a { font-size:0.87rem; color:var(--text-light); line-height:1.75; padding-bottom:1.3rem; display:none; }
+.faq-item.open .faq-arrow { transform:rotate(45deg); }
+.faq-item.open .faq-a { display:block; }
+@media(max-width:900px) {
+  .contact-layout { grid-template-columns:1fr; }
+  .contact-cards { grid-template-columns:1fr 1fr; }
+}
+@media(max-width:500px) { .contact-cards { grid-template-columns:1fr; } }
+</style>
+
+<script>
+function toggleFaq(el) {
+  const item = el.parentElement;
+  document.querySelectorAll('.faq-item').forEach(i => { if(i !== item) i.classList.remove('open'); });
+  item.classList.toggle('open');
+}
+
+// ── WHATSAPP FORM SUBMIT ──
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const name     = document.getElementById('fname').value.trim();
+  const phone    = document.getElementById('fphone').value.trim();
+  const email    = document.getElementById('femail').value.trim();
+  const category = document.getElementById('fcategory').value;
+  const message  = document.getElementById('fmessage').value.trim();
+
+  // Build WhatsApp message
+  let waMsg = `🛍️ *New Enquiry – Sarfaraz Fabrics*\n\n`;
+  waMsg += `👤 *Naam:* ${name}\n`;
+  waMsg += `📞 *Phone:* ${phone}\n`;
+  if (email) waMsg += `✉️ *Email:* ${email}\n`;
+  waMsg += `🏷️ *Category:* ${category}\n`;
+  if (message) waMsg += `💬 *Message:* ${message}\n`;
+  waMsg += `\n_Sarfaraz Fabrics Website se aaya hai_`;
+
+  const waNumber = '917367018157';
+  const waURL = `https://wa.me/${waNumber}?text=${encodeURIComponent(waMsg)}`;
+
+  // Open WhatsApp
+  window.open(waURL, '_blank');
+
+  // Visual feedback
+  const btn = this.querySelector('button[type="submit"]');
+  btn.textContent = '✅ WhatsApp Khul Raha Hai...';
+  btn.style.background = '#25D366';
+  setTimeout(() => {
+    btn.textContent = '💬 WhatsApp pe Send Karein';
+    btn.style.background = '';
+    this.reset();
+  }, 3000);
+});
+</script>
+<script src="main.js"></script>
+</body>
+</html>

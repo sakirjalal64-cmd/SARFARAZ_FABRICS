@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery – Sarfaraz Fabrics</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-logo"><span class="logo-sf">SF</span><span class="logo-text">Sarfaraz Fabrics</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="clothing.html">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li>
+    <li><a href="collections.html">Collections</a></li><li><a href="gallery.html" class="active">Gallery</a></li>
+    <li><a href="testimonials.html">Reviews</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions"><a href="https://wa.me/917367018157" target="_blank" class="btn-nav">Visit Store</a><div class="hamburger" id="hamburger"><span></span><span></span><span></span></div></div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <p class="sec-tag">Visual Showcase</p>
+    <h1>Our Gallery</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Gallery</div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="section-head">
+      <p class="sec-tag">Browse Our Work</p>
+      <h2>Fabrics & Fashion Gallery</h2>
+      <p style="max-width:500px;margin:0 auto;color:var(--text-light);font-family:'Cormorant Garamond',serif;font-size:1.1rem;">
+        A visual showcase of our premium fabric collections, ethnic wear, and happy customer moments.
+      </p>
+    </div>
+
+    <!-- Gallery Filter -->
+    <div class="filter-tabs" style="justify-content:center;margin-bottom:2rem;">
+      <button class="filter-tab active" data-gfilter="all">All</button>
+      <button class="filter-tab" data-gfilter="sarees">Sarees</button>
+      <button class="filter-tab" data-gfilter="suits">Suits</button>
+      <button class="filter-tab" data-gfilter="fabrics">Fabrics</button>
+      <button class="filter-tab" data-gfilter="store">Store</button>
+    </div>
+
+    <!-- Masonry Gallery -->
+    <div class="gallery-masonry" id="galleryGrid">
+
+      <div class="gal-item gi-large" data-gcat="sarees">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#8B1A1A,#C0392B,#E74C3C,#922B21);"></div>
+        <div class="gal-label"><span>Banarasi Bridal Saree</span></div>
+      </div>
+
+      <div class="gal-item gi-tall" data-gcat="suits">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#4A148C,#7B1FA2,#9C27B0,#CE93D8);"></div>
+        <div class="gal-label"><span>Anarkali Suit</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="fabrics">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#145A32,#1E8449,#27AE60,#82E0AA);"></div>
+        <div class="gal-label"><span>Raw Silk Fabric</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="sarees">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#1A237E,#283593,#3949AB,#7986CB);"></div>
+        <div class="gal-label"><span>Kanjivaram Silk</span></div>
+      </div>
+
+      <div class="gal-item gi-wide" data-gcat="store">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#2D1F0E,#4A3520,#6B4A2A,#9B7452);"></div>
+        <div class="gal-label"><span>Our Showroom</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="fabrics">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#F57F17,#F9A825,#FFCC02,#FFF176);"></div>
+        <div class="gal-label"><span>Chanderi Cotton</span></div>
+      </div>
+
+      <div class="gal-item gi-tall" data-gcat="sarees">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#006064,#00838F,#00ACC1,#4DD0E1);"></div>
+        <div class="gal-label"><span>Georgette Saree</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="suits">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#880E4F,#C2185B,#E91E63,#F48FB1);"></div>
+        <div class="gal-label"><span>Bridal Lehenga</span></div>
+      </div>
+
+      <div class="gal-item gi-large" data-gcat="store">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#1A1A2E,#16213E,#0F3460,#374785);"></div>
+        <div class="gal-label"><span>Fabric Display Area</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="fabrics">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#BF360C,#D84315,#E64A19,#FF8A65);"></div>
+        <div class="gal-label"><span>Silk Blend</span></div>
+      </div>
+
+      <div class="gal-item" data-gcat="suits">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#1B5E20,#2E7D32,#388E3C,#81C784);"></div>
+        <div class="gal-label"><span>Groom's Sherwani</span></div>
+      </div>
+
+      <div class="gal-item gi-wide" data-gcat="sarees">
+        <div class="gal-bg" style="background:linear-gradient(135deg,#C9A84C,#E8C97A,#9B7B2E,#F5E196);"></div>
+        <div class="gal-label"><span>Golden Silk Saree</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Video/Store section -->
+<section class="section-pad" style="background:var(--dark);">
+  <div class="container">
+    <div class="section-head">
+      <p class="sec-tag" style="color:var(--gold);">Store Tour</p>
+      <h2 style="color:white;">Visit Us in Person</h2>
+      <p style="max-width:500px;margin:0 auto;color:rgba(255,255,255,0.6);font-family:'Cormorant Garamond',serif;font-size:1.1rem;">
+        No photo can do our collection justice. Come visit our store and experience the texture, drape, and beauty of our fabrics firsthand.
+      </p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2rem;">
+      <div class="store-feature">
+        <div class="sf-icon">🏪</div>
+        <h4>Modern Showroom</h4>
+        <p>Spacious, well-organised showroom with dedicated sections for different fabric types.</p>
+      </div>
+      <div class="store-feature">
+        <div class="sf-icon">👗</div>
+        <h4>Draping Service</h4>
+        <p>Try on sarees and see how fabrics drape before making your purchase decision.</p>
+      </div>
+      <div class="store-feature">
+        <div class="sf-icon">🎁</div>
+        <h4>Gift Wrapping</h4>
+        <p>Complimentary gift wrapping for special occasions and gifting purposes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand"><div class="footer-logo"><span class="logo-sf">SF</span><span>Sarfaraz Fabrics</span></div><p>Premium fabrics and ethnic wear, serving Bhagalpur since 2004.</p></div>
+    <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="clothing.html">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h5>Collections</h5><ul><li><a href="collections.html">Bridal Wear</a></li><li><a href="clothing.html">Women's Wear</a></li><li><a href="clothing.html">Men's Wear</a></li><li><a href="fabrics.html">Pure Fabrics</a></li></ul></div>
+    <div class="footer-col"><h5>Contact Us</h5><ul><li>📍 Bhagalpur, Bihar, India</li><li>📞 +91 73670 18157</li><li>✉️ sakirjalal64@gmail.com</li><li>🕐 Mon–Sat: 10AM – 8PM</li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 Sarfaraz Fabrics. All rights reserved.</p></div>
+</footer>
+
+<style>
+/* Masonry Gallery */
+.gallery-masonry {
+  columns: 4;
+  column-gap: 1rem;
+}
+.gal-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  height: 200px;
+}
+.gal-item.gi-large { height: 320px; }
+.gal-item.gi-tall { height: 280px; }
+.gal-item.gi-wide { column-span: none; }
+.gal-bg { width:100%; height:100%; transition:transform 0.5s ease; }
+.gal-item:hover .gal-bg { transform:scale(1.05); }
+.gal-label {
+  position:absolute; bottom:0; left:0; right:0;
+  background:linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+  padding:1rem 0.8rem 0.7rem;
+  opacity:0; transition:opacity 0.3s ease;
+}
+.gal-item:hover .gal-label { opacity:1; }
+.gal-label span { color:white; font-size:0.78rem; font-weight:600; letter-spacing:0.05em; }
+/* Store features */
+.store-feature { text-align:center; padding:1.5rem; }
+.sf-icon { font-size:2.5rem; margin-bottom:0.8rem; }
+.store-feature h4 { font-family:'Playfair Display',serif; font-size:1.05rem; color:white; margin-bottom:0.5rem; }
+.store-feature p { font-size:0.83rem; color:rgba(255,255,255,0.55); line-height:1.6; }
+@media(max-width:900px) { .gallery-masonry { columns:3; } }
+@media(max-width:600px) { .gallery-masonry { columns:2; } }
+</style>
+
+<script>
+// Gallery filter
+const gfilterTabs = document.querySelectorAll('[data-gfilter]');
+gfilterTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    gfilterTabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const filter = tab.dataset.gfilter;
+    document.querySelectorAll('.gal-item').forEach(item => {
+      if (filter === 'all' || item.dataset.gcat === filter) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+<script src="main.js"></script>
+</body>
+</html>

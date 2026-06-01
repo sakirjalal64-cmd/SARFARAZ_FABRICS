@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing – Sarfaraz Fabrics</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="nav-logo"><span class="logo-sf">SF</span><span class="logo-text">Sarfaraz Fabrics</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="clothing.html" class="active">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li>
+    <li><a href="collections.html">Collections</a></li><li><a href="gallery.html">Gallery</a></li>
+    <li><a href="testimonials.html">Reviews</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-actions"><a href="https://wa.me/917367018157" target="_blank" class="btn-nav">Visit Store</a><div class="hamburger" id="hamburger"><span></span><span></span><span></span></div></div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <p class="sec-tag">Fashion & Style</p>
+    <h1>Clothing Collection</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Clothing</div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">All</button>
+      <button class="filter-tab" data-filter="saree">Sarees</button>
+      <button class="filter-tab" data-filter="salwar">Salwar Suits</button>
+      <button class="filter-tab" data-filter="lehenga">Lehengas</button>
+      <button class="filter-tab" data-filter="sherwani">Sherwanis</button>
+      <button class="filter-tab" data-filter="kurta">Kurta Sets</button>
+      <button class="filter-tab" data-filter="dupatta">Dupattas</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+
+      <div class="product-card" data-category="saree">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#8B1A1A,#C0392B,#E74C3C);"></div>
+          <span class="product-badge">Bestseller</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Saree</div>
+          <h4>Banarasi Silk Saree</h4>
+          <div class="product-price">₹4,500 <span>₹6,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="saree">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#1A237E,#3F51B5,#7986CB);"></div>
+          <span class="product-badge">New</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Saree</div>
+          <h4>Kanjivaram Silk Saree</h4>
+          <div class="product-price">₹7,200 <span>₹9,500</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="saree">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#006064,#00838F,#4DD0E1);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Saree</div>
+          <h4>Chanderi Silk Cotton Saree</h4>
+          <div class="product-price">₹2,800</div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="salwar">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#4A148C,#7B1FA2,#CE93D8);"></div>
+          <span class="product-badge">Popular</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Salwar Suit</div>
+          <h4>Anarkali Salwar Set</h4>
+          <div class="product-price">₹3,200 <span>₹4,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="salwar">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#F57F17,#F9A825,#FFCC02);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Salwar Suit</div>
+          <h4>Georgette Salwar Set</h4>
+          <div class="product-price">₹2,500</div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lehenga">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#880E4F,#C2185B,#F48FB1);"></div>
+          <span class="product-badge">Bridal</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Lehenga</div>
+          <h4>Bridal Heavy Lehenga</h4>
+          <div class="product-price">₹18,000 <span>₹24,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lehenga">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#311B92,#512DA8,#B39DDB);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Lehenga</div>
+          <h4>Party Wear Lehenga</h4>
+          <div class="product-price">₹8,500</div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="sherwani">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#1A1A2E,#16213E,#0F3460);"></div>
+          <span class="product-badge">Groom's Wear</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Sherwani</div>
+          <h4>Royal Wedding Sherwani</h4>
+          <div class="product-price">₹12,000 <span>₹16,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="sherwani">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#1B5E20,#2E7D32,#81C784);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Sherwani</div>
+          <h4>Jodhpuri Sherwani Set</h4>
+          <div class="product-price">₹9,500</div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="kurta">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#37474F,#546E7A,#B0BEC5);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Kurta Set</div>
+          <h4>Silk Kurta Pyjama Set</h4>
+          <div class="product-price">₹3,800</div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="kurta">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#BF360C,#D84315,#FF8A65);"></div>
+          <span class="product-badge">Festival</span>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Kurta Set</div>
+          <h4>Festive Kurta Set</h4>
+          <div class="product-price">₹2,200 <span>₹2,800</span></div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="dupatta">
+        <div class="product-img">
+          <div class="product-img-bg" style="background:linear-gradient(135deg,#C9A84C,#E8C97A,#9B7B2E);"></div>
+        </div>
+        <div class="product-info">
+          <div class="product-type">Dupatta</div>
+          <h4>Banarasi Silk Dupatta</h4>
+          <div class="product-price">₹1,200</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-content">
+    <h2>Can't Find What You're Looking For?</h2>
+    <p>Visit our store in Bhagalpur for a much wider selection. Our experts will help you find the perfect outfit.</p>
+    <a href="contact.html" class="btn-primary">Contact Us</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand"><div class="footer-logo"><span class="logo-sf">SF</span><span>Sarfaraz Fabrics</span></div><p>Premium fabrics and ethnic wear, serving Bhagalpur since 2004.</p></div>
+    <div class="footer-col"><h5>Quick Links</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="clothing.html">Clothing</a></li><li><a href="fabrics.html">Fabrics</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h5>Collections</h5><ul><li><a href="collections.html">Bridal Wear</a></li><li><a href="clothing.html">Women's Wear</a></li><li><a href="clothing.html">Men's Wear</a></li><li><a href="fabrics.html">Pure Fabrics</a></li></ul></div>
+    <div class="footer-col"><h5>Contact Us</h5><ul><li>📍 Bhagalpur, Bihar, India</li><li>📞 +91 73670 18157</li><li>✉️ sakirjalal64@gmail.com</li><li>🕐 Mon–Sat: 10AM – 8PM</li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2024 Sarfaraz Fabrics. All rights reserved.</p></div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
